@@ -1,0 +1,7 @@
+score = int(input('whats your total score?:'))
+print(score)
+if score < 50:
+    print('sorry, you can try again later')
+elif score >= 50:
+    print('Congratulations! You have passed')
+    
