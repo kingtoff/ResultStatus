@@ -1,7 +1,5 @@
-score = int(input('whats your total score?:'))
-print(score)
-if score < 50:
-    print('sorry, you can try again later')
-elif score >= 50:
-    print('Congratulations! You have passed')
-    
+from score.input import get_score
+from score.output import print_pass_fail
+
+score = get_score()
+print_pass_fail(score)
